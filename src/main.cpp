@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <RadioengeLoraWAN.h>
 
+RadioengeLoraWAN loraModule = RadioengeLoraWAN("aabbccddeeffgg", "hhiijjkkllmmnn");
+
 void setup() {
   // put your setup code here, to run once:
 }
