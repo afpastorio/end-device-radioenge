@@ -1,7 +1,9 @@
 #include "RadioengeLoraWAN.h"
 
 RadioengeLoraWAN::RadioengeLoraWAN() {
-    ///debugSerial.begin(DEBUG_BAUDRATE);
+}
+
+void RadioengeLoraWAN::begin() {
     this->devEui = sendAtCommand("AT+DEUI=?");
     this->appEui = sendAtCommand("AT+APPEUI=?");
     this->appKey = sendAtCommand("AT+APPKEY=?");
@@ -13,10 +15,7 @@ RadioengeLoraWAN::RadioengeLoraWAN() {
     debugSerial.println("Módulo iniciado...");
     printInfo();
 }
-
-RadioengeLoraWAN::RadioengeLoraWAN(String appEui, String appSkey, String netSkey, String devAddr) {
-    //debugSerial.begin(DEBUG_BAUDRATE);
-
+void RadioengeLoraWAN::begin(String appEui, String appSkey, String netSkey, String devAddr) {
     this->joinMode = 0;
     sendAtCommand("AT+NJM=" + this->joinMode);
     this->appEui = appEui;
@@ -31,9 +30,7 @@ RadioengeLoraWAN::RadioengeLoraWAN(String appEui, String appSkey, String netSkey
     debugSerial.println("Módulo iniciado...");
     printInfo();
 }
-RadioengeLoraWAN::RadioengeLoraWAN(String appEui, String appKey) {
-    //debugSerial.begin(DEBUG_BAUDRATE);
-
+void RadioengeLoraWAN::begin(String appEui, String appKey) {
     this->joinMode = 1;
     sendAtCommand("AT+NJM=" + this->joinMode);
     this->appEui = appEui;

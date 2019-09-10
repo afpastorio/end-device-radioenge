@@ -2,5 +2,14 @@
     "terminal.integrated.env.windows": {
         "PATH": "C:\\Users\\Angelo\\.platformio\\penv\\Scripts;C:\\Users\\Angelo\\.platformio\\penv;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\PuTTY\\;C:\\Users\\Angelo\\Documents\\esp-idf-fdab15dc76a3464ed10ce03e9b9cf1a5cd2aa0d1\\tools;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\Angelo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW\\bin;C:\\MIDE\\bin;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Angelo\\AppData\\Local\\Julia-1.1.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Angelo\\Documents\\esp-idf-fdab15dc76a3464ed10ce03e9b9cf1a5cd2aa0d1\\tools;C:\\Users\\Angelo\\flutter\\bin;;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\PuTTY\\;C:\\Users\\Angelo\\Documents\\esp-idf-fdab15dc76a3464ed10ce03e9b9cf1a5cd2aa0d1\\tools;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\Angelo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\MinGW\\bin;C:\\MIDE\\bin;C:\\Users\\Angelo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Angelo\\AppData\\Local\\Julia-1.1.1\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Angelo\\Documents\\esp-idf-fdab15dc76a3464ed10ce03e9b9cf1a5cd2aa0d1\\tools;C:\\Users\\Angelo\\flutter\\bin;",
         "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp"
     }
 }

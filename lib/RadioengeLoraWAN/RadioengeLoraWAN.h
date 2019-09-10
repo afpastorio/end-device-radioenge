@@ -67,10 +67,11 @@ class RadioengeLoraWAN {
     public:
         /*For device previous configurated*/
         RadioengeLoraWAN();
+        void begin();
         /*Constructor for ABP mode*/
-        RadioengeLoraWAN(String appEui, String appSkey, String netSkey, String devAddr);
+        void begin(String appEui, String appSkey, String netSkey, String devAddr);
         /*Constructor for OTAA mode*/
-        RadioengeLoraWAN(String appEui, String appKey);
+        void begin(String appEui, String appKey);
 
         /*Send AT command trough loraSerial
         [params] 
