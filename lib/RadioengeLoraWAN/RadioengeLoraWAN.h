@@ -65,6 +65,8 @@ class RadioengeLoraWAN {
         String devAddr;
         bool joinMode;
     public:
+        /*For device previous configurated*/
+        RadioengeLoraWAN();
         /*Constructor for ABP mode*/
         RadioengeLoraWAN(String appEui, String appSkey, String netSkey, String devAddr);
         /*Constructor for OTAA mode*/
