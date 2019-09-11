@@ -1,0 +1,28 @@
+{
+    "name": "RadioengeLoraWAN", 
+    "version": "0.0.1", 
+    "keywords": [
+        "lora", 
+        "radioenge", 
+        "atcommand"
+    ], 
+    "description": "Implementation of RadioengeLoraWAN AT-COMMANDS.", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/EdanPotter/end-device-radioenge/"
+    }, 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "espressif32"
+    ], 
+    "authors": [
+        {
+            "email": null, 
+            "url": "https://github.com/EdanPotter", 
+            "maintainer": true, 
+            "name": "André Pastório"
+        }
+    ]
+}
