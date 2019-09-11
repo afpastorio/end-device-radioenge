@@ -65,12 +65,14 @@ class RadioengeLoraWAN {
         String devAddr;
         bool joinMode;
     public:
-        /*For device previous configurated*/
+        /*Constructor*/
         RadioengeLoraWAN();
+        
+        /*Initiate with previous configuration*/
         void begin();
-        /*Constructor for ABP mode*/
+        /*Initiate for ABP mode*/
         void begin(String appEui, String appSkey, String netSkey, String devAddr);
-        /*Constructor for OTAA mode*/
+        /*Initiate for OTAA mode*/
         void begin(String appEui, String appKey);
 
         /*Send AT command trough loraSerial
